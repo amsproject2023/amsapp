@@ -1,13 +1,14 @@
-import contactBg from "./images/ams-contact-us-background.jpg";
+import contactBg from "../../images/ams-contact-us-background.jpg";
+
 import { useState } from "react";
 import "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 const Contact = () => {
-
+   
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [phone, setPhone] = useState('');
-    const [errors, setErrors] = useState({ name: '', email: "", phone: "" });
+    const [errors, setErrors] = useState({ name: '', email: '', phone: '' });
     const validateHomeForm = (eve) => {
         eve.preventDefault();
         const fErrors = { name: "", email: "", phone: "" };
@@ -26,7 +27,11 @@ const Contact = () => {
             // alert("Phone Number");
             fErrors.phone = "Please enter your Phone number";
         }
-    
+        let  phoneRegex = /^\d{10}$/;
+        if (!phoneRegex.test(phone)) {
+            fErrors.phone = "Please enter 10-digit Phone number";
+        }
+       
       
         setErrors(fErrors);
         if (!fErrors.name && !fErrors.email && !fErrors.phone) {
@@ -48,6 +53,7 @@ const Contact = () => {
                 {errors.email && <span className="ams-home-errors">{errors.email}</span>}
 
                 <input type="tel" value={phone} id="mobile_number" placeholder="Phone number" onChange={(eve) => { setPhone(eve.target.value) }} className="d-block ams-home-phone-input" />
+                {/* <div></div> */}
                 {errors.phone && <span className="ams-home-errors">{errors.phone}</span>}
 
                 <input type="submit" />
