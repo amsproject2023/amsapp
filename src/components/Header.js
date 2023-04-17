@@ -5,7 +5,7 @@ import About from './AboutPage/About';
 
 function Header() {
     const menu = ['Home', 'About Us', 'Courses', 'Services', 'Gallery', 'Contact Us'];
-    const links = ['/', '/aboutUs', '/courses', '/services', '/gallery', '/contactUs'];
+    const links = ['/', '/about', '/courses', '/services', '/gallery', '/contactUs'];
     const item = menu.map((list, index) => {
         return <li className='nav-item'><Link to={links[index]} className='nav-link'>{list}</Link></li>;
     })
