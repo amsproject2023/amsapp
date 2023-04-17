@@ -1,0 +1,15 @@
+Welcome to AMS - your one-stop destination for quality software training and job opportunities. Our mission is to provide comprehensive training programs that equip students with the skills and knowledge they need to succeed in the dynamic world of software development.
+
+At AMS, we believe in hands-on training that focuses on real-world scenarios. Our experienced instructors guide students through the entire learning process, from the fundamentals of programming to advanced techniques in every programing language. We offer a range of courses to meet the 
+diverse needs of our students, including computer basics, web development(Python, Node JS, Java, Php,C#, HTML, CSS, Javascript, Bootstrap, React JS, SQL, MySQL, Oracle, MongoDB, Postgre SQL), mobile app development, Graphci Design, Visual Effects and much more.
+
+We take great pride in the success of our students. That's why we go the extra mile to help them find meaningful employment opportunities once they have completed their training. Our rigorous exams and certification programs are designed to prepare our students for the demands of the job market, and our career placement services connect them with top companies in the industry.
+
+We also offer internship opportunities for college students looking to gain real-world experience in software development. Our internships provide students with the opportunity to work on real projects under the guidance of experienced mentors, giving them valuable skills that will set them apart in their careers.
+
+For non-resident students, we offer hostel facilities that provide a comfortable and safe living environment. Our hostels are equipped with all the necessary amenities, including Wi-Fi, laundry facilities, and 24-hour security.
+
+At AMS, we are committed to providing our students with the best possible learning experience. We are constantly updating our courses and materials to keep up with the latest trends and technologies in the industry. Join us today and start your journey to a successful career in software development!
+
+
+
