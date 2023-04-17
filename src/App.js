@@ -1,11 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import FeatureCourses from './components/HomePage/AmsAppFeaturesec';
+
+import Home from './components/HomePage/Home';
 
 function App() {
   return (
     <div className="App">
-    <FeatureCourses/>
+    <Home/>
     </div>
   );
 }
